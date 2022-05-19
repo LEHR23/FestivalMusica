@@ -1,0 +1,23 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "practica proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ernesto",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.51.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEHR23/webfestivalmusica.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LEHR23/webfestivalmusica/issues"
+  },
+  "homepage": "https://github.com/LEHR23/webfestivalmusica#readme"
+}
