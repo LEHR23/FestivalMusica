@@ -1,3 +1,4 @@
+@use 'Variables' as variables;
 html{
   font-size: 62.5%;
   box-sizing: border-box;
@@ -8,11 +9,11 @@ html{
   box-sizing: inherit;
 }
 body{
-  font-family: $fuente_principal;
+  font-family: variables.$fuente_principal;
 }
 p{
   font-size: 2rem;
-  color: $negro
+  color: variables.$negro
 }
 .contenedor {
   width: 95%;
