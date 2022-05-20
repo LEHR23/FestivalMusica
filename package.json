@@ -4,14 +4,11 @@
   "description": "practica proyecto",
   "main": "index.js",
   "scripts": {
-    "sass": "sass src/scss:build/scss"
+    "sass": "sass src/scss:build/scss",
+    "gulp": "gulp dev"
   },
   "author": "Ernesto",
   "license": "ISC",
-  "dependencies": {
-    "gulp": "^4.0.2",
-    "sass": "^1.51.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LEHR23/webfestivalmusica.git"
@@ -19,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/LEHR23/webfestivalmusica/issues"
   },
-  "homepage": "https://github.com/LEHR23/webfestivalmusica#readme"
+  "homepage": "https://github.com/LEHR23/webfestivalmusica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.52.0"
+  }
 }
