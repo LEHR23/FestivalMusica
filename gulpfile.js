@@ -1,9 +1,10 @@
 const { src, dest, watch } = require('gulp')
 const sass = require('gulp-sass')(require('sass'))
+const plumber = require('gulp-plumber')
 
 function css(done) {
   //identificar el archivo sass
-  const archivo = src('src/scss/**/*.scss')
+  const archivo = src('src/scss/**/*.scss').pipe(plumber())
   //compilarlo
   archivo.pipe(sass())
   //almacenarla en el disco duro
