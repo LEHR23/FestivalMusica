@@ -12,6 +12,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  margin-top: 5rem;
+  @include mixins.tablet{
+    margin-top: 0;
+  }
   h2{
     margin-bottom: 2rem;
 
