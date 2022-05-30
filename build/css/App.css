@@ -456,8 +456,13 @@ img {
 
 .contenido-video h2 {
   color: #FFFFFF;
-  font-size: 7rem;
+  font-size: 5rem;
   margin: 0;
+}
+@media (min-width: 768px) {
+  .contenido-video h2 {
+    font-size: 7rem;
+  }
 }
 .contenido-video p {
   background-color: #F53756;
@@ -466,7 +471,12 @@ img {
   margin: 0;
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .contenido-video {
+    font-size: 2.4rem;
+  }
 }
 
 .sobre-festival {
