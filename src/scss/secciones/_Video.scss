@@ -1,0 +1,50 @@
+@use "base/Variables" as variables;
+@use "base/Mixins" as mixins;
+
+.video {
+  position: relative;
+  max-height: 70rem;
+  overflow: hidden;
+  .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(31, 230, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(31, 230, 0, 0.5) 0%,
+      rgba(0, 54, 199, 0.5) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  video {
+    width: 100%;
+    display: block;
+  }
+}
+
+.contenido-video{
+  h2{
+    color: variables.$blanco;
+    font-size: 5rem;
+    margin: 0;
+    @include mixins.tablet{
+      font-size: 7rem;
+    }
+  }
+  p{
+    background-color: variables.$rosa;
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 0;
+    color: variables.$blanco;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  @include mixins.tablet{
+    font-size: 2.4rem;
+  }
+}
